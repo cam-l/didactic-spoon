@@ -11,4 +11,4 @@ github_username:
 
 # Build settings
 markdown: kramdown
-remote_theme: volny/creative-theme-jekyll
+remote_theme: cam-l/creative-theme-jekyll
