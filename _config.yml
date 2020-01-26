@@ -12,7 +12,7 @@ github_username:
 # Build settings
 # Build settings
 destination: _site
-paginate: 10
+# paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
@@ -33,4 +33,5 @@ plugins:
   - jekyll-include-cache
   
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor']
+
 remote_theme: cam-l/creative-theme-jekyll
