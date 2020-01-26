@@ -28,9 +28,9 @@ kramdown:
   hard_wrap: false
 
 plugins:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-remote-theme
-  - jekyll-include-cache
+  # - jekyll-include-cache
   
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor']
 
