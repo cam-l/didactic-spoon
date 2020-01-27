@@ -2,7 +2,7 @@
 title: SomethingSomething
 logo: /assets/img/logo.png    
 # > this means to ignore newlines until "baseurl:"
-description: Therapy through play. >
+description: Therapy through play.
 baseurl: "/didactic-spoon" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
@@ -10,6 +10,8 @@ twitter_username:
 github_username:
 
 # Build settings
+remote_theme: cam-l/creative-theme-jekyll
+
 # Build settings
 destination: _site
 # permalink: /:year/:title/
@@ -31,5 +33,3 @@ plugins:
   - jekyll-include-cache
   
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', '.travis.yml', 'vendor']
-
-remote_theme: cam-l/creative-theme-jekyll
